@@ -17,12 +17,12 @@ public class Register extends AppCompatActivity {
     }
 
     public void pressedRECIPIENTButton(View view){
-        Intent intent1= new Intent(this,RegRecipient.class);
-        startActivity(intent1);
+        Intent intent3= new Intent(this,RegRecipient.class);
+        startActivity(intent3);
     }
 
     public void pressedDONORButton(View view) {
-        Intent intent2 = new Intent(this,RegDonor.class);
-        startActivity(intent2);
+        Intent intent4 = new Intent(this,RegDonor.class);
+        startActivity(intent4);
     }
 }
